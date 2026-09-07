@@ -1,8 +1,8 @@
 # film-seedance-director
 
-版本 **2.6.0-alpha.2**。影视创作 → Seedance 2.5 Prompt 的工作流 Skill；包含情绪表演库、强度/克制调节、基于交流处境的对白开发与从想法到故事的开发方法。调用：`/film-seedance-director` 或在对话中描述任务（写场景、拆分镜、转 Prompt、改成片）。
+版本 **2.6.0-alpha.3**。影视创作 → Seedance 2.5 Prompt 的工作流 Skill；包含情绪表演库、强度/克制调节、基于交流处境的对白开发与从想法到故事的开发方法。调用：`/film-seedance-director` 或在对话中描述任务（写场景、拆分镜、转 Prompt、改成片）。
 
-2.6.0 开发进度见 [验收协议](tests/acceptance-2.6.0/protocol.md)；P0/P1 已完成，创作效果尚未验证。
+2.6.0 开发进度见 [验收协议](tests/acceptance-2.6.0/protocol.md)；P0/P1 已完成，P2 方法候选已实现；创作效果等待 P3 实际对照。
 
 2.5.5：故事开发与编剧工作流升级——按意图与材料成熟度路由，S3a/S3b/S3c 是成果类型不是关卡；候选按人物 / 关系 / 事件后果 / 观众理由比较；关键场景先行；故事正文优先；叙事组织四判断；对白按实际原因修订；修订账本与停止条件。生产与表演核心保持 2.5.0 不变（哈希回归）。**工程验收已通过；完整创作任务与三配置对照尚未执行**，见 [验收协议](tests/acceptance-2.5.5/protocol.md) 与 [工程报告](tests/acceptance-2.5.5/engineering-report.md)。2.5.0 的非盲对白验收见 [报告](tests/acceptance-2.5.0/report.md)。
 
@@ -140,3 +140,11 @@ git clone https://github.com/Anelse0/Film-Director.git <skills目录>/Film-Direc
 - 模型能力更新 → 只改 `references/seedance-2.5-capabilities.md`，并保留事实标签。
 - 新任务类型 → 更新对应模板与路由；脚本只增加可确定核对的契约，不通过累积情绪关键词或固定动作组合模拟语义判断。
 - 校验脚本回归：`bash tests/run_tests.sh`。
+
+多场剧本通读（仅保存项目）：
+
+```bash
+python3 scripts/assemble_script.py 03_script/scene-01.md 03_script/scene-02.md --output 03_script/reading.md
+```
+
+顺序由参数明确指定；只汇集正文，源文件不变，旁列 `.sources.json` 记录依赖哈希。

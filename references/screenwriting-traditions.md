@@ -47,30 +47,20 @@ S3b/S3c 的创作工具。好莱坞、欧洲、韩国都包含不同作者和类
 
 为满足规则拿道具；每次争吵都是三级升级；每场低声结束；把地区当单一写法；删关键细节才塞进时长；审阅没有对应台词、动作或镜头证据。回到人物与实际场景，不再加通用禁令。
 
-## 五、核实依据（2026-09-05；2.5.5 新增行标注 2026-09-06，本次无网络核实，原页均未访问）
+## 五、方法来源与核实边界（2026-09-07）
 
-### 方法资源（2.4.0 起按"解决的问题 → 作用机制 → 适用边界 → 原始依据"记录）
+下列链接本次直接访问；作者实践是启发，转成条件式操作是本 Skill 的设计推论。不能据此宣称方法适合所有作品或新版编剧能力已提升。
 
-| 解决的问题 | 作用机制 | 适用边界 | 原始依据 |
-|---|---|---|---|
-| 概念阶段就被迫写出主题金句，写死了探索 | 从"不知道"开始，带着兴趣探索，允许作品在写的过程中发现自己关心什么 | 保留发现空间不等于放弃结构与修订——那是本 Skill 的设计选择 `[推论]`；Kaufman 本人对三幕结构不感兴趣，不能把他引为"结构必要"的依据 | [Charlie Kaufman，BAFTA 编剧讲座 2011](https://www.bafta.org/stories/charlie-kaufman-screenwriters-lecture/)（原页需人工访问；要点经 MovieMaker、Go Into The Story 转载核对）`[第三方转述]` |
-| 人物只有身份标签，行为与语言不可信 | 研究同时进入语言（句法、方言）、工作动作与空间，并与写作、修订交替 | 采用"研究进入语言 / 动作 / 空间"的做法与交替节奏，不复制其研究规模；创作推演须与真实材料分开标注 | [Robert Eggers，BAFTA 编剧讲座 2019](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2019-robert-eggers/)（原页需人工访问）；方言研究细节经 [BFI](https://www.bfi.org.uk/interviews/robert-eggers-lighthouse-influences)、IndieWire、No Film School 访谈核对 `[第三方转述]` |
-| 每场戏都被写成对抗 | 以欲望与关系驱动场景：张力来自距离、允许与代价，而非冲突 | 是可选方法，不是"必须无冲突"的新规则；需要观众看见"允许"的证据 | [Céline Sciamma，BAFTA 编剧讲座 2019](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2019-celine-sciamma/)（原页需人工访问）；"没有冲突不等于没有张力"经 [Sight & Sound](https://www.bfi.org.uk/sight-and-sound/interviews/no-mans-land-celine-sciamma-portrait-lady-fire)、[RogerEbert.com](https://www.rogerebert.com/interviews/love-dialogue-celine-sciamma-on-portrait-of-a-lady-on-fire) 访谈核对 `[第三方转述]` |
-| 台词是交错独白，人物没听见对方 | 节目讨论回应关系、人物声音及作者是否借人物交代剧情，也谈情绪影响语言组织 | 统一转为 `character-scene-development.md` 的连续交流诊断；不要求峰值破碎、每句接上句或人物永远回避 | [John August / Craig Mazin，Scriptnotes 609](https://johnaugust.com/2023/scriptnotes-episode-609-dialogue-and-character-voice-transcript) `[第三方]` |
-| 场景从第一个想到的写法直接落笔 | 十一步：必须发生什么 / 删掉会怎样 / 谁在场 / 地点还能是哪 / 意外的可能 / 值得多长 / 三种进入方式 / 脑内排演 / 潦草版 / 正稿 / 反复 | 作为创作回路里的可选工具，不要求每场走完全部步骤 | [John August，How to Write a Scene（2007）](https://johnaugust.com/2007/write-scene) `[第三方]` |
-| 一场戏只负责交代信息，没人想拍它 | 区分"想要的场景"与"剧情需要的场景"，检查必要内容能否成为有创作欲望的场景：交代本身变成值得看的体验，而不是被跳过的程序 | 是审阅问题（这场戏是否只在交代），不是要求每个故事列两张清单；用户锁定的场景不因"不想拍"删除 | [Céline Sciamma，BAFTA 编剧讲座 2019](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2019-celine-sciamma/)（原页未访问，要点经转载核对）`[第三方转述]` |
-| 概念卡先于一切，试写被当成插图 | 从感兴趣的场景、句子和片段开始，再组织结构；片段里人物的回应决定故事假设 | 开放"关键场景 → 人物发现 → 故事整理"入口；保留概念判断作为核对工具是本 Skill 的选择 `[推论]`；不推为任何任务都不做梗概 | [Dee Rees，BAFTA 编剧讲座](https://www.bafta.org/)（讲座年份与原页均未核实，要点经转述）`[第三方转述]`；[Tony Gilroy，BAFTA 编剧讲座 2013](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2013-tony-gilroy/)（从律师处境的试写对话发展项目）`[第三方转述]` |
-| 人物靠标签堆出复杂性 | 理解人的矛盾与复杂性，通过人物在具体关系中的选择发展人物 | 不增加人物档案字段；复杂性来自选择的可理解性，不来自设定数量 | 同上 Gilroy 2013 `[第三方转述]` |
-| 场与场只有因果，观众的理解没有被组织 | 事件顺序与呈现顺序分别设计；时间组织改变观众对同一事件的理解与情感 | 吸收"观众何时知道什么"的判断，不要求倒叙或双时间线 | [Greta Gerwig 谈《小妇人》，Scriptnotes 访谈](https://johnaugust.com/)（集数未核实，原页未访问）`[第三方转述]` |
-| 多写几个候选是否自动带来多样性 | 实验发现 AI 提供点子后个体作品评价改善（尤其低基线作者），但作品之间更相似 | 说明多样性需要单独检查；不能直接证明本 Skill 某项改法有效，仍须对照盲测 | [Doshi & Hauser 2024，arXiv:2312.00506](https://arxiv.org/abs/2312.00506) `[第三方]` |
+| 实际问题 | 一手依据与定位 | 本地采用及边界 |
+|---|---|---|
+| 过早定死概念 | [Charlie Kaufman / BAFTA 2011 官方讲座介绍](https://www.bafta.org/stories/charlie-kaufman-screenwriters-lecture/)，开篇关于写作探索 | 留发现空间；本次读官方介绍，未读完整讲稿，不将其引为结构必要的依据 |
+| 人物语言、工作和空间缺少依据 | [Robert Eggers / BAFTA 2019 原讲稿](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2019-robert-eggers/)，研究段及 Jewett 方言、守塔手册、边研究边重写段 | 研究影响具体语言、工作动作和空间；不复制研究规模，也不强制所有剧本写气味 |
+| 场景只有对抗或只交代过桥信息 | [Céline Sciamma / BAFTA 2019 原讲稿](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2019-celine-sciamma/)，wanted/needed scenes 与 tension without conflict 段 | 重看场景欲望与实际体验；允许冲突，不强制列两张表 |
+| 场景只有概念判断，没有人物实际回应 | [John August：How to write a scene](https://johnaugust.com/2007/write-scene)，进入方式、脑内排演与草写；[Dee Rees / BAFTA 官方文字稿](https://static.bafta.org/uploads_pre_202411/transcripts/bafta_screenwriters_lecture_dee_rees.pdf)，PDF 第 12 页 index cards 与重写；[Tony Gilroy / BAFTA 2013 原讲稿](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2013-tony-gilroy/)，律师处境、片段与对话试写段 | 不确定时用真实片段试出人物，再回写故事；不要求全部任务先试写，不规定数量。Rees 年份不作为本次已核事实 |
+| 中段事件接续但人物没有发展 | [Craig Mazin / Scriptnotes 403 原文字稿](https://johnaugust.com/2019/scriptnotes-ep-403-how-to-write-a-movie-transcript)，central dramatic argument 与人物关系 | 从选择、后果追到下一次行动；适用于相应剧情，不强制人物成长或固定页码。跨集承接是本地推论 |
+| 事件成立但观众过早猜完或无法理解 | [Greta Gerwig / Scriptnotes 433，2020-01-16](https://johnaugust.com/2020/scriptnotes-ep-433-the-one-with-greta-gerwig)，成年/童年并置、Beth 与配对期待段 | 用同一事实的不同呈现顺序试效果；不强制双时间线或反转 |
+| 连续对白的倾听与声音问题 | [John August / Craig Mazin，Scriptnotes 609 原文字稿](https://johnaugust.com/2023/scriptnotes-episode-609-dialogue-and-character-voice-transcript) | 沿用连续交流诊断；延迟回应、各执一词可以成立，不要求每句接前句或固定句长 |
+| 单场可读但整体难以执行 | [Sidney Lumet / DGA 访谈](https://www.dga.org/craft/dgaq/issues/0305-may-2003/under-the-influence-sidney-lumet)，排练布景走位与道具段 | 连读时核对空间、动作、声音与时间；文本模拟不等于演员排练或模型效果验证 |
+| 多候选是否自动更多样 | [Doshi & Hauser，作者预印本摘要](https://arxiv.org/abs/2312.00506) | 实验中的质量评价与相似性同时变化，故多样性单独检查；不能外推本 Skill 或专业影视效果 |
 
-### 其他依据
-
-- [John August / Craig Mazin，Scriptnotes 609](https://johnaugust.com/2023/scriptnotes-episode-609-dialogue-and-character-voice-transcript)：人物声音、听与回应、情绪如何影响语言组织。采用为审阅问题，不变成句长配额。
-- [Brian Helgeland，BAFTA 讲座](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-brian-helgeland/)：电影对白是创作后的语言，不等于日常录音；这不为无动机的漂亮话开脱。
-- [Sidney Lumet，DGA 访谈](https://www.dga.org/craft/dgaq/issues/0305-may-2003/under-the-influence-sidney-lumet)：排练涵盖走位与道具，视觉与表演随作品意图发展。转为跨部门检查，不复刻个人拍摄配额。
-- [Greta Gerwig，DGA 访谈](https://www.dga.org/craft/dgaq/issues/1802-spring-2018/gen-next-greta-gerwig)：剧场与重叠对白的影响、尊重写定台词；艺术成立不等于 Seedance 多人口型必然可靠。
-- [Academy 编剧资源](https://www.oscars.org/nicholl/screenwriting-resources)：行业格式存在合理变体，本地约定不等于唯一专业语法。
-- [Pedro Almodóvar，BAFTA 2019 讲座](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2019-pedro-almodovar/)：现实观察、记忆与改写参与创作；不能据此把“欧洲电影”概括成少台词或不外放。
-
-需要具体作者方法而资料不足时，查本人访谈、剧本或摄影原始资料。研究提供决策依据，不代写角色，也不把未经核实的方法冠作者名字。
+历史参考中 Helgeland、Almodóvar、Gerwig 的 DGA 访谈与 Academy 格式资源本次未重新核实，不用于证明新增方法。需要具体作者方法而证据不足时，先查本人访谈、剧本或原始资料；不将未核实的观点冠以作者名。
