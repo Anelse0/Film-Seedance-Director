@@ -16,7 +16,7 @@ WARN:
   C06 候选主控画面共用物件词（可能只换了地点）
   C07 研究记录缺失、缺列、来源为占位符，或发现 / 可信范围 / 影响决定为空
   C08 候选声明依赖外部事实，但研究记录里没有对应行
-  C09 候选缺必填行（一句话 / 主控画面 / 独特之处 / 人物 / 观众）
+  C09 候选缺一句话或独特之处（仅提示人工检查正文，其他辅助字段可选）
   C10 "这 N 秒拍什么"含镜头词（概念阶段偷做分镜）
   C11 候选一句话只是主题词（"关于……"且没有人物动作）
 """
@@ -131,7 +131,7 @@ def main(path, as_json=False):
     research_text = text[m_res.start():] if m_res else ""
     imgs = []
     for t, b in full:
-        missing = [n for n in ("一句话", "人物", "观众", "主控画面", "独特之处") if (field(b, n) is None or field(b, n) in PLACEHOLDER)]
+        missing = [n for n in ("一句话", "独特之处") if (field(b, n) is None or field(b, n) in PLACEHOLDER)]
         if missing:
             warns.append(f"C09 候选〈{t}〉缺 {'/'.join(missing)}")
         one = field(b, "一句话") or ""

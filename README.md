@@ -1,6 +1,8 @@
 # film-seedance-director
 
-版本 **2.5.5**。影视创作 → Seedance 2.5 Prompt 的工作流 Skill；包含情绪表演库、强度/克制调节、基于交流处境的对白开发与从想法到故事的开发方法。调用：`/film-seedance-director` 或在对话中描述任务（写场景、拆分镜、转 Prompt、改成片）。
+版本 **2.6.0-alpha.1**。影视创作 → Seedance 2.5 Prompt 的工作流 Skill；包含情绪表演库、强度/克制调节、基于交流处境的对白开发与从想法到故事的开发方法。调用：`/film-seedance-director` 或在对话中描述任务（写场景、拆分镜、转 Prompt、改成片）。
+
+2.6.0 开发进度见 [验收协议](tests/acceptance-2.6.0/protocol.md)；P0 已完成，创作效果尚未验证。
 
 2.5.5：故事开发与编剧工作流升级——按意图与材料成熟度路由，S3a/S3b/S3c 是成果类型不是关卡；候选按人物 / 关系 / 事件后果 / 观众理由比较；关键场景先行；故事正文优先；叙事组织四判断；对白按实际原因修订；修订账本与停止条件。生产与表演核心保持 2.5.0 不变（哈希回归）。**工程验收已通过；完整创作任务与三配置对照尚未执行**，见 [验收协议](tests/acceptance-2.5.5/protocol.md) 与 [工程报告](tests/acceptance-2.5.5/engineering-report.md)。2.5.0 的非盲对白验收见 [报告](tests/acceptance-2.5.0/report.md)。
 
@@ -16,7 +18,7 @@ S1 资源读取 → S2 需求识别 → 故事开发（S3a 概念 ↔ S3b 故事
 
 创作前端可迭代（概念 ↔ 故事 ↔ 剧本，允许关键场景先行），生产后端走稳定步骤。入口由创作意图与材料成熟度决定（`SKILL.md` §需求识别）。纯表演测试走共用 S4 模块，不强制故事、参考图或停靠。可直接说“10秒，从愤怒到委屈，最后忍住眼泪”或“原文直出 Crying”。
 
-交付原则：对话是默认，落盘只在停靠确认后或用户明确要求时。运行模式：**概念**（只到 S3a，对话里给创作判断与候选后停，候选数量由任务定）、**单阶段**、**停靠式**（默认，概念、故事、剧本与分镜按需停靠）、**全流程**（用户说"一次跑完"）。见 SKILL.md「运行模式与停靠点」。
+范围、自主、确认与保存统一见 `references/execution-contract.md`。默认对话交付；明确保存要求或已有项目约定才写文件。用户要故事就交故事，要剧本就交剧本，进入生产才调用 S4–S7；不按关键词扩大范围。
 
 ## 文件地图
 
@@ -50,7 +52,7 @@ S1 资源读取 → S2 需求识别 → 故事开发（S3a 概念 ↔ S3b 故事
 | `templates/*.md` | 各阶段产物骨架 |
 | `scripts/validate_prompt.py` | S6 之后必跑 |
 | `scripts/validate_concept.py` | 概念选定落盘后跑；只查格式与完整性，不判断创意 |
-| `scripts/route_check.py` | S2 路由自检：同一请求换种说法不应改变范围与保存行为 |
+| `scripts/route_check.py` | S2 结构化决策校验；不解释自然语言，旧自由文本 CLI 返回 2 |
 | `scripts/blind_eval.py` + `tests/creative-eval.md` | 旧版 / 新版盲选评测：打包、记录判定、揭晓 |
 | `examples/concept-worked-examples.md` | 概念协议跑出来长什么样（概念模式默认不读，禁止复用候选） |
 | `examples/example-01-kitchen-keys*.md` | 完整走查 + 通过校验的 Prompt |
@@ -81,7 +83,7 @@ python3 scripts/validate_prompt.py <prompt.md> --production-record <production.j
 路由自检：
 
 ```bash
-python3 scripts/route_check.py "写一个关于搬家的短片" [--material idea|fragment|story|script|storyboard|footage]
+python3 scripts/route_check.py --record <语义判断记录.json> --json
 ```
 
 创意评测（2.4.0 起）：
