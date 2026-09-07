@@ -8,7 +8,7 @@ S3b/S3c 的创作工具。好莱坞、欧洲、韩国都包含不同作者和类
 |---|---|---|---|
 | 看懂人物为何行动 | 目标、阻力、尝试与后果 | 写清本次选择及影响 | 观察段、持续表演不强加对抗 |
 | 情绪来自期待破灭 | 期待与结果的落差 | 先理解期待，再呈现结果和反应 | 不为反转突然新增前史 |
-| 关系比事件重要 | 倾听、直接表达、回避、重复或持续陪伴 | 查连续交流的依据与接收，回应可延迟 | 不以逐句接前句或永久回避替代人物 |
+| 关系比事件重要 | 倾听、回避、重复变义 | 后一句受上一句影响，同时保持人物声音 | 不写成轮流发表独白 |
 | 处境本身有压力 | 工作、金钱、制度、空间 | 研究会改变选择或画面可信度的条件 | 不为“欧洲感”编造履历或禁止台词 |
 | 需要先导片钩子 | 延迟、信息差、未决后果 | 决定观众知道多少、本段回答到哪 | 用户要完整释放时不强行截断 |
 | 喜剧或高语域 | 语言、节奏、形体、并置、修辞 | 按人物与基调选择表达载体 | 不要求笑点只能在动作上，不强制打断或喝水 |
@@ -47,20 +47,13 @@ S3b/S3c 的创作工具。好莱坞、欧洲、韩国都包含不同作者和类
 
 为满足规则拿道具；每次争吵都是三级升级；每场低声结束；把地区当单一写法；删关键细节才塞进时长；审阅没有对应台词、动作或镜头证据。回到人物与实际场景，不再加通用禁令。
 
-## 五、方法来源与核实边界（2026-09-07）
+## 五、核实依据（2026-09-05）
 
-下列链接本次直接访问；作者实践是启发，转成条件式操作是本 Skill 的设计推论。不能据此宣称方法适合所有作品或新版编剧能力已提升。
+- [John August / Craig Mazin，Scriptnotes 609](https://johnaugust.com/2023/scriptnotes-episode-609-dialogue-and-character-voice-transcript)：人物声音、听与回应、情绪如何影响语言组织。采用为审阅问题，不变成句长配额。
+- [Brian Helgeland，BAFTA 讲座](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-brian-helgeland/)：电影对白是创作后的语言，不等于日常录音；这不为无动机的漂亮话开脱。
+- [Sidney Lumet，DGA 访谈](https://www.dga.org/craft/dgaq/issues/0305-may-2003/under-the-influence-sidney-lumet)：排练涵盖走位与道具，视觉与表演随作品意图发展。转为跨部门检查，不复刻个人拍摄配额。
+- [Greta Gerwig，DGA 访谈](https://www.dga.org/craft/dgaq/issues/1802-spring-2018/gen-next-greta-gerwig)：剧场与重叠对白的影响、尊重写定台词；艺术成立不等于 Seedance 多人口型必然可靠。
+- [Academy 编剧资源](https://www.oscars.org/nicholl/screenwriting-resources)：行业格式存在合理变体，本地约定不等于唯一专业语法。
+- [Pedro Almodóvar，BAFTA 2019 讲座](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2019-pedro-almodovar/)：现实观察、记忆与改写参与创作；不能据此把“欧洲电影”概括成少台词或不外放。
 
-| 实际问题 | 一手依据与定位 | 本地采用及边界 |
-|---|---|---|
-| 过早定死概念 | [Charlie Kaufman / BAFTA 2011 官方讲座介绍](https://www.bafta.org/stories/charlie-kaufman-screenwriters-lecture/)，开篇关于写作探索 | 留发现空间；本次读官方介绍，未读完整讲稿，不将其引为结构必要的依据 |
-| 人物语言、工作和空间缺少依据 | [Robert Eggers / BAFTA 2019 原讲稿](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2019-robert-eggers/)，研究段及 Jewett 方言、守塔手册、边研究边重写段 | 研究影响具体语言、工作动作和空间；不复制研究规模，也不强制所有剧本写气味 |
-| 场景只有对抗或只交代过桥信息 | [Céline Sciamma / BAFTA 2019 原讲稿](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2019-celine-sciamma/)，wanted/needed scenes 与 tension without conflict 段 | 重看场景欲望与实际体验；允许冲突，不强制列两张表 |
-| 场景只有概念判断，没有人物实际回应 | [John August：How to write a scene](https://johnaugust.com/2007/write-scene)，进入方式、脑内排演与草写；[Dee Rees / BAFTA 官方文字稿](https://static.bafta.org/uploads_pre_202411/transcripts/bafta_screenwriters_lecture_dee_rees.pdf)，PDF 第 12 页 index cards 与重写；[Tony Gilroy / BAFTA 2013 原讲稿](https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2013-tony-gilroy/)，律师处境、片段与对话试写段 | 不确定时用真实片段试出人物，再回写故事；不要求全部任务先试写，不规定数量。Rees 年份不作为本次已核事实 |
-| 中段事件接续但人物没有发展 | [Craig Mazin / Scriptnotes 403 原文字稿](https://johnaugust.com/2019/scriptnotes-ep-403-how-to-write-a-movie-transcript)，central dramatic argument 与人物关系 | 从选择、后果追到下一次行动；适用于相应剧情，不强制人物成长或固定页码。跨集承接是本地推论 |
-| 事件成立但观众过早猜完或无法理解 | [Greta Gerwig / Scriptnotes 433，2020-01-16](https://johnaugust.com/2020/scriptnotes-ep-433-the-one-with-greta-gerwig)，成年/童年并置、Beth 与配对期待段 | 用同一事实的不同呈现顺序试效果；不强制双时间线或反转 |
-| 连续对白的倾听与声音问题 | [John August / Craig Mazin，Scriptnotes 609 原文字稿](https://johnaugust.com/2023/scriptnotes-episode-609-dialogue-and-character-voice-transcript) | 沿用连续交流诊断；延迟回应、各执一词可以成立，不要求每句接前句或固定句长 |
-| 单场可读但整体难以执行 | [Sidney Lumet / DGA 访谈](https://www.dga.org/craft/dgaq/issues/0305-may-2003/under-the-influence-sidney-lumet)，排练布景走位与道具段 | 连读时核对空间、动作、声音与时间；文本模拟不等于演员排练或模型效果验证 |
-| 多候选是否自动更多样 | [Doshi & Hauser，作者预印本摘要](https://arxiv.org/abs/2312.00506) | 实验中的质量评价与相似性同时变化，故多样性单独检查；不能外推本 Skill 或专业影视效果 |
-
-历史参考中 Helgeland、Almodóvar、Gerwig 的 DGA 访谈与 Academy 格式资源本次未重新核实，不用于证明新增方法。需要具体作者方法而证据不足时，先查本人访谈、剧本或原始资料；不将未核实的观点冠以作者名。
+需要具体作者方法而资料不足时，查本人访谈、剧本或摄影原始资料。研究提供决策依据，不代写角色，也不把未经核实的方法冠作者名字。
