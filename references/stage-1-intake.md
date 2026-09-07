@@ -114,7 +114,7 @@
 ```
 <workspace>/<ip-slug>/
   ip.md                    世界观、人物总表、地点总表、视觉声音总则（跨故事）
-  assets/assets.md         跨故事参考资产登记表（编号 = 上传顺序）+ 图片 / 音频文件
+  assets/assets.md         跨故事参考资产登记表（稳定资产 ID，上传编号按 clip 映射）+ 图片 / 音频文件
   <story-slug>/            一个故事、一条先导、一集
     00_brief.md
     01_concept.md          概念选定后才写
@@ -124,6 +124,7 @@
     05_assets/asset-plan.md
     06_prompts/scene-XX-clipYY.prompt.md
     07_qa/scene-XX-clipYY.qa.md
+    project-state.json       当前版本、确认快照、依赖、未决项（保存项目按需）
 ```
 
 slug 规则：ip-slug = 用户给的 IP 名，或概念选定后的标题；story-slug = 格式 + 标题（`teaser-30s-举证`、`ep01-…`）。**目录按保存契约按需创建；保存候选无需先选定。** 用户已有目录结构时沿用，不新建平铺的 `ip.md 与 assets/` 之类阶段目录。

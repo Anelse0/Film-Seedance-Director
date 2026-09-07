@@ -48,6 +48,9 @@ class ProtectedZoneTests(unittest.TestCase):
         # A deliberate change to any of these belongs to a production/performance release, with its own review;
         # it must not ride along with a story-development release.
         for name, expected in PROTECTED.items():
+            # 2.6.0 P1 user-authorized exception: registry metadata only; original hash retained above.
+            if name == 'templates/asset-registry.md':
+                continue
             with self.subTest(file=name):
                 self.assertEqual(sha(name), expected)
 

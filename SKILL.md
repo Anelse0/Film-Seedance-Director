@@ -85,7 +85,7 @@ S1 资源读取 → S2 需求识别 → 故事开发（S3a 概念 ↔ S3b 故事
 ```
 <workspace>/<ip-slug>/
   ip.md                    世界观 · 人物总表 · 地点总表 · 视觉声音总则（跨故事共享）
-  assets/assets.md         参考资产登记表（编号 = 上传顺序）+ 文件
+  assets/assets.md         参考资产登记表（稳定资产 ID，上传编号按 clip 映射）+ 文件
   <story-slug>/            一个故事 / 一条先导 / 一集
     00_brief.md · 01_concept.md · 02_story.md
     03_script/scene-XX.md
@@ -93,9 +93,10 @@ S1 资源读取 → S2 需求识别 → 故事开发（S3a 概念 ↔ S3b 故事
     05_assets/asset-plan.md
     06_prompts/scene-XX-clipYY.prompt.md
     07_qa/scene-XX-clipYY.qa.md
+    project-state.json       当前版本、确认快照、依赖、未决项（保存项目按需）
 ```
 
-ip-slug = 用户给的 IP 名或概念选定后的标题；story-slug = 格式 + 标题（`teaser-30s-举证`、`ep01-…`）。用户已有目录时沿用。模板在 `templates/`：`ip.md` · `story.md` · `script-scene.md` · `shot-card.md` · `reference-asset-brief.md` · `asset-registry.md` · `prompt-templates.md`。
+ip-slug = 用户给的 IP 名或概念选定后的标题；story-slug = 格式 + 标题（`teaser-30s-举证`、`ep01-…`）。用户已有目录时沿用。已保存项目的版本、快照、恢复、正典和 `.production.json` 位置见 `references/project-state.md`；只读检查用 `scripts/project_check.py`。模板在 `templates/`：`ip.md` · `story.md` · `script-scene.md` · `shot-card.md` · `reference-asset-brief.md` · `asset-registry.md` · `prompt-templates.md`。
 
 一个 **clip = 一次 Seedance 2.5 生成 ≤ 30 秒**。clip 衔接策略在 S5 决定（延长 / 尾帧接首帧 / 独立）。
 

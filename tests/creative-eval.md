@@ -14,12 +14,11 @@
 
 ## 二、怎样产出样本
 
-旧版用 git 工作树，避免污染当前安装：
+基线可以来自源码仓库的确切标签，也可以来自带独立哈希的版本归档。先确认来源可取得，安装目录不默认是 Git 仓库。找不到所需旧版就报告无法比较，不把当前安装副本改名当旧版。
 
-```bash
-cd <skill 目录>
-git worktree add ../film-director-2.3.1 v2.3.1
-```
+源码仓库路径：核对 `git rev-parse <tag>^{commit}`，用 `git archive <tag>` 导出到独立目录；真实远端为 https://github.com/Anelse0/Film-Director，版本标签需先核实。非 Git 安装可以使用该版本的源码归档解压目录。
+
+对实际版本目录执行 `python3 scripts/baseline_snapshot.py create <版本目录> <独立快照目录>`，在评测运行记录中保存返回的 manifest_sha256。复跑前执行 `python3 scripts/baseline_snapshot.py verify <快照目录> --manifest-sha256 <独立记录的值>`。manifest 自身只证明内容完整性，不证明版本声明真实；版本与源码提交来源另记。归档中保留 SKILL、全部实际依赖及 VERSION，排除 Git 与缓存。
 
 在两个独立会话里分别加载旧版与新版 Skill，输入同一条需求，把交付原文各存为一个 `.md`。不要在同一会话里先后跑两版。
 
